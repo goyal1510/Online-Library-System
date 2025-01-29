@@ -15,6 +15,7 @@ A full-featured online library system built with React, Redux, and React Router.
 ## Project Structure
 
 Online-Library-System
+```
 ├── src/
 │ ├── components/
 │ │ ├── Navbar.jsx
@@ -37,6 +38,7 @@ Online-Library-System
 ├── package.json
 ├── README.md
 ├── vite.config.js
+```
 
 ## Installation and Setup
 
