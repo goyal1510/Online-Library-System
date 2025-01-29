@@ -1,0 +1,146 @@
+/* Global Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+h1, h2, h3 {
+  color: #ffffff;
+  text-align: center;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #1e1e1e;
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.navbar a {
+  color: #e0e0e0;
+  text-decoration: none;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  color: #ffcc00;
+}
+
+/* Page Wrapper */
+.wrapper {
+  width: 80%;
+  margin: 20px auto;
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.1);
+}
+.add-wrapper{
+  width: 60%;
+  margin: 20px auto;
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-book{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+/* Forms */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+input, textarea {
+  background-color: #333;
+  color: #e0e0e0;
+  border: 1px solid #555;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 5px;
+}
+
+button {
+  background-color: #ffcc00;
+  width: 100px;
+  color: #121212;
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #e6b800;
+}
+
+/* Book List */
+.book-list {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  padding: 0;
+
+}
+
+.book-list li {
+  width: 200px;
+  background: #222;
+  padding: 10px;
+  margin: 10px 10px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(255, 255, 255, 0.1);
+}
+
+.book-list li a {
+  text-decoration: none;
+  color: #ffcc00;
+  font-weight: bold;
+}
+
+.book-browse-list{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+
+/* Not Found Page */
+.not-found {
+  text-align: center;
+  color: #ff4444;
+}
+
+.link{
+  color: green;
+}
+.link2{
+  color: red;
+}
+
+img{
+  height: 200px;
+  width: 200px;
+  border-radius: 10%;
+}
